@@ -509,5 +509,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="android_vendor_cm" />
   <project path="vendor/cyngn" name="android_vendor_cyngn" remote="cyngn" revision="cm-11.0" />
-  <project path="vendor/htc" name="proprietary_vendor_htc"remote="tm" revision="cm-11.0" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
 </manifest>
