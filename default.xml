@@ -14,6 +14,10 @@
   <remote  name="github"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
+           
+  <remote  name="cm"
+           fetch=".."
+           review="review.cyanogenmod.org" />
 
   <remote  name="cyngn"
            fetch="git://github.com/cyngn/" />
@@ -49,11 +53,11 @@
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" />
-  <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" />
-  <project path="device/htc/s4-common" name="android_device_htc_s4-common" />
+  <project path="device/htc/jewel" name="CyanogenMod/android_device_htc_jewel" remote="cm" />
+  <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="cm" />
+  <project path="device/htc/m7spr" name="CyanogenMod/android_device_htc_m7spr" remote="cm" />
+  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" />
+  <project path="device/htc/s4-common" name="CyanogenMod/android_device_htc_s4-common" remote="cm" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -61,7 +65,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="device/google/accessory/arduino" name="android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="android_device_google_accessory_demokit" groups="device" />
-  <project path="device/qcom/common" name="android_device_qcom_common" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" />
   <project path="device/sample" name="android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
@@ -367,7 +371,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" />
+  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" />
   <project path="libcore" name="android_libcore" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -508,6 +512,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="android_vendor_cm" />
-  <project path="vendor/cyngn" name="android_vendor_cyngn" remote="cyngn" revision="cm-11.0" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="cm" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
 </manifest>
