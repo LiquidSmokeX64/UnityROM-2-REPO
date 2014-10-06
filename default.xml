@@ -12,7 +12,8 @@
            fetch="https://github.com/TheMuppets/" />
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+           fetch="git://github.com/CyanogenMod/"
+           review="review.cyanogenmod.org" />
 
   <remote  name="cyngn"
            fetch="git://github.com/cyngn/" />
