@@ -11,7 +11,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
-  <remote  name="cm"
+  <remote  name="github"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
 
@@ -22,7 +22,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-11.0"
-           remote="cm"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
