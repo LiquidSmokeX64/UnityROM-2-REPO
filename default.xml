@@ -8,9 +8,6 @@
   <remote  name="ls"
            fetch="https://github.com/LiquidSmokeX64/" />
 
-  <remote  name="tm"
-           fetch="https://github.com/TheMuppets/" />
-
   <remote  name="github"
            fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
@@ -58,6 +55,7 @@
   <project path="device/htc/m7spr" name="CyanogenMod/android_device_htc_m7spr" remote="cm" revision="cm-11.0" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/htc/s4-common" name="CyanogenMod/android_device_htc_s4-common" remote="cm" revision="cm-11.0" />
+  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -372,6 +370,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="android_libcore" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -513,5 +512,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="cm" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ls" revision="cm-11.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="ls" revision="cm-11.0" />
 </manifest>
