@@ -66,6 +66,9 @@
   <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="cm" revision="cm-11.0" />
   <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
